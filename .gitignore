@@ -23,10 +23,6 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-<<<<<<< HEAD
-.idea/
-=======
->>>>>>> 9db847e2a31ef4bc5e1145ab48c7a76556591060
 MANIFEST
 
 # PyInstaller
@@ -110,5 +106,3 @@ venv.bak/
 
 # PyCharm
 .idea/
-=======
->>>>>>> 9db847e2a31ef4bc5e1145ab48c7a76556591060
