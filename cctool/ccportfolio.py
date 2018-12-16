@@ -148,7 +148,7 @@ class CCPortfolio:
                     self.close_position(**trade)
             except (MemberNotFound, MemberAlreadyExists) as e:
                 if ignore_errors:
-                    logger.error('{}: {}', type(e), str(e))
+                    logger.error('{}: {}'.format(type(e), str(e)))
                 else:
                     logger.exception('', exc_info=True)
                     return

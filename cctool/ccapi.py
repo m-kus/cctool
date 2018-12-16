@@ -144,7 +144,7 @@ def close_position(auth_key, position_id, amount, price, timestamp,
         sellPrice=price,
         sellCurrency=base_quote,
         soldOnTs=timestamp,
-        soldDescription=comment        
+        soldDescription=comment
     )
 
 
