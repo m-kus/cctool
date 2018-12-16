@@ -8,7 +8,7 @@ from cctool.ccsession import CCSession
 logger = logging.getLogger('cctool')
 
 
-if __name__ == '__main__':
+def main():
     logging.basicConfig(level=logging.DEBUG)
 
     parser = ArgumentParser()
@@ -29,3 +29,7 @@ if __name__ == '__main__':
             portfolio = ccs.create_portfolio('New portfolio')
             logger.warning('Portfolio name is not specified, using default')
         portfolio.import_trades(trades, args.ignore_errors)
+
+
+if __name__ == '__main__':
+    main()

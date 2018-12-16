@@ -9,5 +9,8 @@ setup(
     author_email='44951260+m-kus@users.noreply.github.com',
     license='MIT',
     packages=['cctool'],
+    entry_points={
+        'console_scripts': ['cctool=cctool.cctool:main'],
+    },
     zip_safe=False
 )
